@@ -162,4 +162,10 @@ cython_debug/
 #.idea/
 
 tb_logs/
-*/hf/Entregables/Sesion 4/hf/
+
+# Hugging Face training artifacts (very large)
+Sesion4/hf/checkpoint-*/
+Sesion4/hf/runs/
+
+# Generic training artifacts
+**/checkpoint-*/
